@@ -1,0 +1,17 @@
+import math as m
+
+
+def f(x, y):
+    return x + y
+
+
+def x(z):
+    return (z ** 2) + 3
+
+
+def y():
+    return m.sin(4)
+
+
+if __name__ == "__main__":
+    print(f(x(2), y()))
